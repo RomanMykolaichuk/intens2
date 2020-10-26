@@ -1,0 +1,217 @@
+body {
+    overflow-x: hidden;
+
+    font-family: 'Fira Sans', sans-serif;
+
+
+
+}
+
+html,body, header, section, footer
+{
+    width: 100%;
+    margin: 0rem;
+    padding: 0rem;
+    overflow-x: hidden; 
+}
+
+.navbar-brand img {
+    height: 2.5rem;
+
+}
+
+.navbar {    
+    font-size: .9rem;
+
+    box-shadow:  0 .1rem .1rem rgba(0,0,0,.1);  
+
+
+}
+
+.nav-margin{
+
+}
+
+.nav-item{
+    padding: .1rem;
+    font-weight: 500;
+}
+
+.navbar-light .nav-item.active .nav-link,
+.navbar-light .nav-item .nav-link:active,
+.navbar-light .nav-item .nav-link:focus,
+.navbar-light .nav-item:hover .nav-link {
+    color: #3ba933;
+    font-weight:bold;
+}
+
+.font-sm{
+    font-size: 0.7rem;
+    line-height: 1.1;
+}
+.carousel-empty{
+    width:100%;
+    height:auto;
+    min-height: 23rem;
+    display:block;
+    background-color: #e0e1e3;
+    border:0px solid grey;
+
+}
+
+
+
+.subtitle{    
+    margin-top: -0.6rem;
+    margin-left: 3rem;
+}
+
+.rounded-img{   
+    width: 10rem;
+    height: 10rem;
+
+}
+.rounded-img-sm{   
+    width: 5rem;
+    height: 5rem;
+
+}
+
+.small-item{
+    font-size: 0.85rem;
+    line-height: 1.01;
+    font-style: italic;
+    font-weight: 300;
+
+}
+
+.news-img{
+    height: 10rem;
+}
+
+.news-back-img{
+    height:30rem;
+    right:-95px;
+    top: -157px;
+    position:absolute;
+
+
+
+}
+
+.news-bg{    
+
+    background-color: #e1e3e1;
+
+}
+.partner-img{    
+    max-height: 5rem;    
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(30%);
+}
+
+
+
+.bg-custom1 {
+    background-color: rgba(0,0,0,.3); 
+    border-radius: 1rem;
+}
+.p-custom{
+    font-weight: 600;
+    background-color: rgba(255,255,255,0.4);
+    text-align: justify;
+    font-size: 0.9rem;
+}
+
+.card img{
+
+    height:20rem;
+}
+.card-body{
+    font-weight: 400;
+    text-align: justify;
+    font-size: 1.2rem;
+
+}
+
+.card-body ul {
+    font-size: 1.1rem;
+
+    margin: 0;
+    padding:0;
+    list-style-type: none;
+}
+
+.row{
+    border-radius: 0;
+
+}
+
+.add-top-m{
+    margin-top: 0rem;
+}
+
+.my-border{
+    border-top: .2rem solid;
+}
+
+.carousel-inner{
+
+
+}
+
+
+/*---Change Carousel Transition Speed --*/
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+    transition: transform 2s ease;
+
+}
+.carousel-caption{
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+
+
+footer {
+    padding: 2rem 2rem;
+}
+
+footer img {
+    height: 3.5rem;
+    margin: 1.5rem auto;
+}
+
+footer p,
+footer a,
+.socket a   {
+    color: white;
+    text-decoration: none;
+}
+
+ul.social {
+    list-style-type: none;
+    display: flex;
+    max-width: 16rem;
+    margin: 0 auto;
+    padding: 0;
+} 
+
+ul.social li {
+    font-size: 1.8rem;
+    margin: 0 0.5rem;
+    padding: 0 0.2rem;
+}
+
+
+
+
+@media only screen and  (max-width: 576px) {
+
+
+}
