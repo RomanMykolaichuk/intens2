@@ -14,6 +14,21 @@ html,body, header, section, footer
     padding: 0rem;
 
 }
+.lang-panel{
+    top: 0.2rem;
+    padding:0.2rem;
+    right:2rem;
+    font-size:0.6rem;
+    background-color: #e0e1e3;
+}
+
+.lang-panel-mobile{
+    top: 1.2rem;
+    padding:0.2rem;
+    right:6rem;
+    font-size:0.6rem;
+    background-color: #e0e1e3;
+}
 
 .navbar-brand img {
     height: 2rem;
@@ -22,7 +37,7 @@ html,body, header, section, footer
 
 .navbar {    
     font-size: .8rem;
-
+font-weight: 400;
     box-shadow:  0 .1rem .1rem rgba(0,0,0,.1);  
 
 
@@ -46,7 +61,7 @@ html,body, header, section, footer
 }
 
 .font-sm{
-    font-size: 0.6rem;
+    font-size: 0.5rem;
     line-height: 1.5;
     font-weight: 100;
 
@@ -72,9 +87,8 @@ h1{
 
 
 
-.subtitle{ 
-
-    fon-size: 1.15rem;
+.subtitle{
+    font-size: 1.15rem;
     font-style: italic;
     margin-top: 0rem;
     margin-left: 3rem;
@@ -109,8 +123,8 @@ h1{
 
 .news-back-img{
     height:30rem;
-    right:-95px;
-    top: -157px;
+    right:-130px;
+    top: -190px;
     position:absolute;
 }
 
@@ -192,12 +206,14 @@ h1{
 
 
 footer {
-    padding: 2rem 2rem;
+    
+    
 }
 
 footer img {
-    height: 3.5rem;
-    margin: 1.5rem auto;
+    height: 2.5rem;
+    
+    
 }
 
 footer p,
@@ -205,21 +221,22 @@ footer a,
 .socket a   {
     color: white;
     text-decoration: none;
+    
 }
 
-ul.social {
-    list-style-type: none;
-    display: flex;
-    max-width: 16rem;
-    margin: 0 auto;
-    padding: 0;
+footer p{
+    margin-top:0.2rem;
+    margin-bottom:0.2rem;
+    font-weight: 300;
+}
+
+.social {
+    font-size: 2rem;
+    
+    
+   
 } 
 
-ul.social li {
-    font-size: 1.8rem;
-    margin: 0 0.5rem;
-    padding: 0 0.2rem;
-}
 
 
 
