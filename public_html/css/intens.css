@@ -48,7 +48,7 @@ html,body, header, section, footer
 .font-sm{
     font-size: 0.6rem;
     line-height: 1.5;
-    font-weight: 200;
+    font-weight: 100;
 
 }
 
@@ -101,7 +101,10 @@ h1{
 }
 
 .news-img{
-    height: 10rem;
+    width:90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .news-back-img{
