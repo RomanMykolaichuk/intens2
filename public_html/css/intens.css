@@ -1,10 +1,10 @@
 body {
     overflow-x: hidden;
-
     font-family: 'Fira Sans', sans-serif;
+}
 
-
-
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Fira Sans';
 }
 
 html,body, header, section, footer
@@ -12,16 +12,16 @@ html,body, header, section, footer
     width: 100%;
     margin: 0rem;
     padding: 0rem;
-    overflow-x: hidden; 
+
 }
 
 .navbar-brand img {
-    height: 2.5rem;
+    height: 2rem;
 
 }
 
 .navbar {    
-    font-size: .9rem;
+    font-size: .8rem;
 
     box-shadow:  0 .1rem .1rem rgba(0,0,0,.1);  
 
@@ -33,8 +33,8 @@ html,body, header, section, footer
 }
 
 .nav-item{
-    padding: .1rem;
-    font-weight: 500;
+    padding: 0rem;
+    font-weight: 400;
 }
 
 .navbar-light .nav-item.active .nav-link,
@@ -46,13 +46,24 @@ html,body, header, section, footer
 }
 
 .font-sm{
-    font-size: 0.7rem;
-    line-height: 1.1;
+    font-size: 0.6rem;
+    line-height: 1.5;
+    font-weight: 200;
+
+}
+
+h1{
+    font-size: 2.5rem;
+    font-style: italic;
+    font-weight: 600;
+
+    line-height: 0.88;
+    margin-top: 0;
+    margin-bottom:0rem;
 }
 .carousel-empty{
     width:100%;
-    height:auto;
-    min-height: 23rem;
+    min-height: 20rem;
     display:block;
     background-color: #e0e1e3;
     border:0px solid grey;
@@ -61,14 +72,19 @@ html,body, header, section, footer
 
 
 
-.subtitle{    
-    margin-top: -0.6rem;
+.subtitle{ 
+
+    fon-size: 1.15rem;
+    font-style: italic;
+    margin-top: 0rem;
     margin-left: 3rem;
 }
 
 .rounded-img{   
-    width: 10rem;
-    height: 10rem;
+    width: 7.5rem;
+    min-width: 6rem;
+    min-height: 6rem;
+    height: 7.5rem;
 
 }
 .rounded-img-sm{   
@@ -78,8 +94,7 @@ html,body, header, section, footer
 }
 
 .small-item{
-    font-size: 0.85rem;
-    line-height: 1.01;
+    font-size: 0.78rem;
     font-style: italic;
     font-weight: 300;
 
@@ -94,9 +109,6 @@ html,body, header, section, footer
     right:-95px;
     top: -157px;
     position:absolute;
-
-
-
 }
 
 .news-bg{    
@@ -150,9 +162,7 @@ html,body, header, section, footer
 
 }
 
-.add-top-m{
-    margin-top: 0rem;
-}
+
 
 .my-border{
     border-top: .2rem solid;
@@ -172,10 +182,10 @@ html,body, header, section, footer
 
 }
 .carousel-caption{
+    top:0;    
     animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 2s; /* don't forget to set a duration! */
 }
-
 
 
 footer {
