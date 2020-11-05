@@ -17,7 +17,7 @@ html,body, header, section, footer
 .lang-panel{
     top: 0.2rem;
     padding:0.2rem;
-    right:2rem;
+    right: 50vw;
     font-size:0.6rem;
     background-color: #e0e1e3;
 }
@@ -31,13 +31,14 @@ html,body, header, section, footer
 }
 
 .navbar-brand img {
-    height: 2rem;
+    height: 2.2rem;
+    margin-top: -0.45rem;;
 
 }
 
 .navbar {    
     font-size: .8rem;
-font-weight: 400;
+    font-weight: 400;
     box-shadow:  0 .1rem .1rem rgba(0,0,0,.1);  
 
 
@@ -206,14 +207,14 @@ h1{
 
 
 footer {
-    
-    
+
+
 }
 
 footer img {
     height: 2.5rem;
-    
-    
+
+
 }
 
 footer p,
@@ -221,7 +222,7 @@ footer a,
 .socket a   {
     color: white;
     text-decoration: none;
-    
+
 }
 
 footer p{
@@ -232,9 +233,9 @@ footer p{
 
 .social {
     font-size: 2rem;
-    
-    
-   
+
+
+
 } 
 
 
