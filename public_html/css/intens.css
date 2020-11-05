@@ -105,10 +105,10 @@ h1{
 }
 
 .rounded-img{   
-    width: 221px;
-    min-width: 220px;
-    min-height: 220px;
+    width: 221px;    
     height: 221px;
+    min-width: 210px;
+    min-height: 210px;
 
 }
 .rounded-img-sm{   
@@ -215,8 +215,14 @@ h1{
     animation-duration: 2s; /* don't forget to set a duration! */
 }
 
+.height-370{
+    height:370;
+}
+
 
 footer {
+    height: 341px;
+    margin: auto;
 
 
 }
