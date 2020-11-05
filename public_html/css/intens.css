@@ -20,6 +20,7 @@ html,body, header, section, footer
     right: 50vw;
     font-size:0.6rem;
     background-color: #e0e1e3;
+    transform: translateX(26.5rem);
 }
 
 .lang-panel-mobile{
@@ -38,8 +39,7 @@ html,body, header, section, footer
 
 .navbar {    
     font-size: .8rem;
-    font-weight: 400;
-    box-shadow:  0 .1rem .1rem rgba(0,0,0,.1);  
+    font-weight: 400;   
 
 
 }
@@ -85,6 +85,15 @@ h1{
     border:0px solid grey;
 
 }
+.max-width-limit{
+    max-width: 25rem;
+    
+}
+
+.content-width-limit{
+    max-width: 1143px;
+    min-width: 340px;
+}
 
 
 
@@ -96,15 +105,15 @@ h1{
 }
 
 .rounded-img{   
-    width: 7.5rem;
-    min-width: 6rem;
-    min-height: 6rem;
-    height: 7.5rem;
+    width: 221px;
+    min-width: 220px;
+    min-height: 220px;
+    height: 221px;
 
 }
 .rounded-img-sm{   
-    width: 5rem;
-    height: 5rem;
+    width: 141px;
+    height: 141px;
 
 }
 
@@ -112,6 +121,7 @@ h1{
     font-size: 0.78rem;
     font-style: italic;
     font-weight: 300;
+    
 
 }
 
