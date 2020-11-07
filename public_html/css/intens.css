@@ -37,7 +37,7 @@ html,body, header, section, footer
 
 }
 
-.navbar {    
+.navbar {   
     font-size: .8rem;
     font-weight: 400;   
 
@@ -76,6 +76,10 @@ h1{
     line-height: 0.88;
     margin-top: 0;
     margin-bottom:0rem;
+}
+
+#carouselControls1{
+   
 }
 .carousel-empty{
     width:100%;
@@ -215,14 +219,19 @@ h1{
     animation-duration: 2s; /* don't forget to set a duration! */
 }
 
+.fa-chevron-left, .fa-chevron-right{
+    color:white;
+}
+
 .height-370{
-    height:370;
+    height:370px;
 }
 
 
 footer {
     height: 341px;
     margin: auto;
+    background-color: #777777;
 
 
 }
