@@ -21,6 +21,7 @@ html,body, header, section, footer
     font-size:0.6rem;
     background-color: #e0e1e3;
     transform: translateX(26.5rem);
+    
 }
 
 .lang-panel-mobile{
@@ -48,6 +49,8 @@ html,body, header, section, footer
 .nav-margin{
 
 }
+
+*[ui-sref]{cursor: pointer;}
 
 .nav-item{
     padding: 0rem;
@@ -99,8 +102,13 @@ h1{
     border:0px solid grey;
 
 }
+
+.carousel2{    
+    min-height: 27rem;
+}
+
 .max-width-limit{
-    max-width: 27rem;
+    max-width: 30rem;
 
 }
 
@@ -134,7 +142,8 @@ h1{
 }
 
 .small-item{
-    font-size: 0.78rem;
+    
+    font-size: 0.8rem;
     font-style: italic;
     font-weight: 300;
 
@@ -167,7 +176,7 @@ h1{
 
 .carousel-control-next,
 .carousel-control-prev {
-    filter: invert(30%);
+    /*filter: invert(40%);*/
 }
 
 
@@ -227,7 +236,7 @@ h1{
 
 }
 .carousel-caption{
-    top:0;    
+    top:0.5rem;    
     animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 2s; /* don't forget to set a duration! */
 }
@@ -242,7 +251,7 @@ h1{
 
 
 footer {    
-    margin: auto;
+    
     background-color: #777777;
 
 
@@ -305,7 +314,7 @@ footer p{
 
 
     .running-text{
-        font-size:2rem;
+        font-size:1.8rem;
     }
     .rounded-img{  
         width: 160px;
@@ -315,11 +324,23 @@ footer p{
         min-height: 160px;
 
     }
+    
+    .small-item{    
+    font-size: 0.75rem;  
+}
 
     .rounded-img-sm{   
         width: 111px;
         height: 111px;
 
     }
+
+}
+
+@media only screen and  (max-width: 800px) {
+    
+    .small-item{    
+    font-size: 0.65rem;  
+}
 
 }

@@ -1,0 +1,27 @@
+[
+    {
+        "id": 0,
+        "image": "img/section1/Foto_1_Home_page.png"
+    },
+    {
+        "id": 1,
+        "image": "img/section1/Foto_2_Home_page.png"
+    },
+    {
+        "id": 2,
+        "image": "img/section1/Foto_3_Home_page.png"
+    },
+    {
+        "id": 3,
+        "image": "img/section1/Foto_4_Home_page.png"
+    },
+    {
+        "id": 4,
+        "image": "img/section1/Foto_5_Home_page.png"
+    },
+    {
+        "id": 5,
+        "image": "img/section1/Foto_6_Home_page.png"
+    }    
+
+]

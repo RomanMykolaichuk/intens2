@@ -1,0 +1,151 @@
+<section class="container-fluid m-0 p-0 mx-auto justify-content-center">
+
+    <div class="container-fluid d-none d-sm-block mx-auto p-0">
+        <div uib-carousel
+             template-url="src/templates/carousel.html"
+             interval="4000" no-pause="true" no-wrap="false">
+            <div uib-slide ng-repeat="slide in homeController.carousel1" index="$index">
+                <img ng-src="{{slide.image}}" class="img-fluid d-block w-100 mx-auto">
+                <div class="carousel-caption">
+                </div>
+            </div>
+        </div>   
+    </div>
+
+    <div class="container-fluid   font-sm py-3 my-1">
+        <div class="content-width-limit mx-auto text-justify" ng-repeat="paragraph in homeController.section2">
+            <p><span class='font-weight-bold text-primary'>{{paragraph.title}}</span> {{paragraph.text}}</p>
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="container-fluid news-bg  d-none d-sm-block mx-auto p-0">
+        <div class="content-width-limit mx-auto">
+            <div uib-carousel
+                 template-url="src/templates/carousel_2.html"
+                 interval="4000" no-pause="true" no-wrap="false">
+                <div uib-slide ng-repeat="slide in homeController.carousel2" index="$index">
+                    <img src="img/section2/Background.jpg" class="carousel2 img-fluid d-block content-width-limit mx-auto">
+
+                    <div class="carousel-caption content-width-limit mt-2">
+
+                        <h1 class='text-white text-left'>
+                            {{slide.title}}</h1>
+                        <div class="subtitle mb-3">
+                            <p class=' text-dark text-left font-weight-bold'>
+                                {{slide.subtitle}}</p>
+                        </div>
+
+                        <div class="row  my-auto mx-auto">
+                            <div class="col-5 py-1 pr-0">
+                                <img class='rounded-img img-fluid rounded-circle' ng-src="{{slide.image}}" alt=""/>
+                            </div>
+                            <div class="col-7 py-1">
+                                <p class="text-justify text-muted small-item  max-width-limit">{{slide.text}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="container-fluid content-width-limit">
+        <div class="row">
+            <div class="col-12">
+                <div class='text-light'>
+                    <h1 class='text-left mt-3'>
+                        Про інноваційні проекти</h1>
+
+                </div>  
+            </div>
+        </div>
+        <div class="row my-3 mx-auto p-1 font-sm font-weight-bold text-center">
+            <div class="col-sm-4" ng-repeat="paragraph in homeController.section4">
+                <div class="row mt-3">
+                    <div class="col-lg-6">
+                        <img class='rounded-img-sm rounded-circle' ng-src="{{paragraph.image}}" alt=""/>
+
+                    </div>
+                    <div class="col-lg-6 my-2 pl-0 text-left" ng-class="{'text-primary':($index === 0)}">
+                        {{paragraph.title}}
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!--News-->
+    <div class="container-fluid news-bg position-relative">
+        <img class="d-none d-md-flex news-back-img" src="img/news/backgroundImg.png" alt=""/>
+
+        <div class="row content-width-limit mx-auto">           
+            <h1 class='my-3 pr-2 text-white text-left'>
+                Новини</h1>           
+
+        </div>
+
+
+        <div class="row content-width-limit mx-auto font-sm">
+
+
+            <div class="col-lg-4" ng-repeat="news in homeController.news">
+                <div class="row p-2">
+                    <div class="">
+                        <img class='news-img img-fluid' ng-src="{{news.image}}" alt=""/>
+                    </div>
+
+                    <div class="text-left p-2">
+                        <p class="text-primary font-weight-bold text-left">{{news.date}}</p>
+                        <p class="text-justify font-weight-bold">{{news.title}}</p>
+                        <p class="text-justify">{{news.text}}</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <div class="">
+        <div class="container-fluid content-width-limit">
+            <div class="row">
+                <div class="col-12">
+                    <div class='text-light font-italic mt-3'>
+                        <h1 class='text-left font-weight-bolder'>Партнери</h1>                           
+                    </div>  
+                </div>
+            </div>                
+        </div>
+
+        <div class="container-fluid  content-width-limit">
+            <div style="height: 12rem">
+                <div uib-carousel 
+                     template-url="src/templates/carousel_3.html"                 
+                     interval="30000" no-pause="true" no-wrap="false">
+                    <div uib-slide ng-repeat="slide in homeController.partners" index="$index">
+                        <img ng-src="{{slide.image}}" class="img-fluid d-block w-75 mx-auto">
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                </div>              
+            </div>
+        </div>
+    </div>
+
+</section>
