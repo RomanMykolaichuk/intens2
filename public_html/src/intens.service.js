@@ -47,6 +47,16 @@
                 return response.data;
             });
         };
+        service.getFounders = function () {
+            return $http.get(ApiPath + '/founders.json').then(function (response) {
+                return response.data;
+            });
+        };
+        service.getExperts = function () {
+            return $http.get(ApiPath + '/experts.json').then(function (response) {
+                return response.data;
+            });
+        };
 
        
 

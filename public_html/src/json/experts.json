@@ -1,0 +1,91 @@
+[
+    {
+        "id": 10,
+        "name": "Шевчук Богдан",
+        "title": "Експерт з інноваційного розвитку та Internet of Things (IoT)",
+        "subtitle": "Доктор технічних наук",
+        "image": "img/people/e1.jpg",
+        "quote": "",
+        "info": "Доктор технічних наук, винахідник (автор 10 патентів), інноватор, автор та співавтор більше 160 наукових праць, монографій і статей у сфері інноваційного розвитку, підвищення інформаційної ефективності безпровідних моніторингових мереж, smart wireless systems та інших, опублікованих в Україні та за кордоном. Зокрема, автор монографії «Методи та алгоритми підвищення інформаційної ефективності безпровідних моніторингових мереж» 2020 р. Найновіші публікації: \u000d Shevchuk B., Ivakhiv O., Brayko Y., Geraimchuk M. Secure Information- and Energy-efficient Wireless Networks With Packet Transmission Creation/ The 5th IEEE International Symposium on Smart and Wireless Systems within the International Conferences on Intelligent Data Acquisition and Advanced Computing Systems17-18 September, 2020, Dortmund, Germany. (Scopus). \u000dShevchuk B, Brayko Y.,  Ivakhiv O., Geraimchuk M. Effective and secure transmission of monitoring signal and frames of video data samples by object system of the Internet of Things/ IEEE 15th International Conference on Advanced Trends in Radio Electronics, Telecommunications and Computer Engineering (TCSET-2020) 25–29 February 2020, Lviv, Ukraine, 2020. (Scopus). \u000dShevchuk B., Brayko Yu., Geraimchuk М., Ivakhiv О.,  Velgan R. Processing of input signals of wireless monitoring networks by means of subscriber systems// 3rd IEEE International Conference on Advanced Information and Communication Technologies (AICT) – 2019 Lviv, Ukraine, July 2-6, 2019. P. 248-253. (Scopus). DOI: 10.1109/AIACT.2019.8847869 ·"
+    },
+    {
+        "id": 11,
+        "name": "Конопльов Сергій",
+        "title": "Експерт з питань міжнародних відносин, інвестицій та інноваційного розвитку ",
+        "subtitle": "Master of Public Administration Kennedy School of Government, Ph. D (Economics), програмний директор Гарвардського університету (США), член International Institute for Strategic Studies (London).",
+        "image": "img/people/e2.jpg",
+        "quote": "",
+        "info": "Master of Public Administration Kennedy School of Government, Ph. D (Economics), програмний директор Гарвардського університету (США), член International Institute for Strategic Studies (London). Радник Міністра фінансів України, радник Секретаря РНБО України.Директор Гарвардської програми  Harvard Eurasia Security Program 1997-2017 років, NATO Fellow 2000 р. Директор EURASIA Foundation в Україні, Білорусі та Молдові 1994-1996 рр., Помічник Голови Комітету Верховної Ради України з питань національної безпеки протягом 2000-2008 рр. Лауреат державних нагород Міністерств оборони України, Румунії, Болгарії, Молдови, Грузії, Вірменії, Азербайджану" 
+    },
+    {
+        "id": 12,
+        "name": "Давиденко Андрій",
+        "title": "Експерт з питань винахідництва, інновацій та STEM і STEAM - освіти",
+        "subtitle": "Професор, доктор педагогічних наук, засновник і голова журі Всеукраїнських турнірів юних винахідників і раціоналізаторів, Всеукраїнських конкурсів юних дослідників та винахідників «Едісони ХХІ - го століття»",
+        "image": "img/people/e3.jpg",
+        "quote": "",
+        "info": "Професор, доктор педагогічних наук, засновник і голова журі Всеукраїнських турнірів юних винахідників і раціоналізаторів, Всеукраїнських конкурсів юних дослідників та винахідників «Едісони ХХІ-го століття».Розробник авторських інноваційних підходів до розвитку креативних здібностей особистості, автор більше 250 наукових та методичних праць, член редакційної колегії кількох наукових журналів та збірників.Професор Національного університету «Чернігівський колегіум» ім Т. Г. Шевченка, професор Чернігівського обласного інституту післядипломної педагогічної освіти ім. К. Д. Ушинського. Його випускники працюють в інноваційних дослідницьких центрах Швейцарії, США та інших країн.Член журі Всеукраїнської олімпіади юних фізиків та Національних етапів конкурсу Intel-Techno Україна.Проводить активну діяльність в масштабах України у сфері розвитку винахідницьких, дослідницьких та інноваційних здібностей учнів та студентів; постановки та розв’язування дослідницьких та творчих задач з фізики та техніки; створення приладів для освітнього процесу з фізики; створення та використання в освітньому процесі з природничих дисциплін нових мультимедійних дидактичних засобів, що відповідає міжнародним STEM та STEAM підходам в освіті."
+    },
+    
+    
+    {
+        "id": 13,
+        "name": "",
+        "title": "",
+        "subtitle": " ",
+        "image": "img/people/e4.jpg",
+        "quote": "",
+        "info": ""
+    },
+    {
+        "id": 14,
+        "name": "",
+        "title": "",
+        "subtitle": " ",
+        "image": "img/people/e5.jpg",
+        "quote": "",
+        "info": ""
+    },
+    {
+        "id": 15,
+        "name": "",
+        "title": "",
+        "subtitle": " ",
+        "image": "img/people/e6.jpg",
+        "quote": "",
+        "info": ""
+    },
+    {
+        "id": 16,
+        "name": "",
+        "title": "",
+        "subtitle": " ",
+        "image": "img/people/e7.jpg",
+        "quote": "",
+        "info": ""
+    },
+    {
+        "id": 17,
+        "name": "",
+        "title": "",
+        "subtitle": " ",
+        "image": "img/people/e8.jpg",
+        "quote": "",
+        "info": ""
+    },
+    {
+        "id": 18,
+        "name":"",
+        "title": "",
+        "subtitle": " ",
+        "image": "img/people/e9.jpg",
+        "quote": "",
+        "info": ""
+    }
+    
+]
+
+
+
+
+       

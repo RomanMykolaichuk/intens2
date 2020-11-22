@@ -37,13 +37,30 @@
                         partners: ['IntensService', function (IntensService) {
                                 return IntensService.getPartners();
                             }]
-                        
-                        
-                    }
-                    
 
+
+                    }
 
                 })
+                
+                .state('public.team', {
+                    url: '/team',
+                    templateUrl: 'src/public/team/team.html',
+                    controller: 'TeamController',
+                    controllerAs: 'teamController',
+                    resolve: {
+                        founders: ['IntensService', function (IntensService) {
+                                return IntensService.getFounders();
+                            }],
+                        experts: ['IntensService', function (IntensService) {
+                                return IntensService.getExperts();
+                            }]
+                    }
+
+                })
+
+
+
                 .state('public.menu', {
                     url: '/menu',
                     templateUrl: 'src/public/menu/menu.html',
@@ -66,6 +83,9 @@
                             }]
                     }
                 })
+                
+
+               
 
 
                 .state('public.about', {
