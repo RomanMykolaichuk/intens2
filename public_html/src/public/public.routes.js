@@ -42,7 +42,7 @@
                     }
 
                 })
-                
+
                 .state('public.team', {
                     url: '/team',
                     templateUrl: 'src/public/team/team.html',
@@ -59,7 +59,22 @@
 
                 })
 
+                .state('public.person', {
+                    url: '/person/{id}',
+                    templateUrl: 'src/public/person/person.html',
+                    controller: 'PersonController',
+                    controllerAs: 'personController',
+                    resolve: {
+                        teammate: ['$stateParams', 'IntensService',
+                            function ($stateParams, IntensService) {
+                                return IntensService.getPerson($stateParams.id);
+                            }]
+                    }
 
+                })
+
+
+                
 
                 .state('public.menu', {
                     url: '/menu',
@@ -83,9 +98,9 @@
                             }]
                     }
                 })
-                
 
-               
+
+
 
 
                 .state('public.about', {

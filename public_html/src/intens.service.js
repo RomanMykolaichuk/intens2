@@ -41,8 +41,8 @@
                 return response.data;
             });
         };
-        
-         service.getPartners = function () {
+
+        service.getPartners = function () {
             return $http.get(ApiPath + '/partners.json').then(function (response) {
                 return response.data;
             });
@@ -53,12 +53,25 @@
             });
         };
         service.getExperts = function () {
+           
             return $http.get(ApiPath + '/experts.json').then(function (response) {
                 return response.data;
+
             });
         };
 
-       
+        service.getPerson = function (id) {
+            console.log('+++');
+            return $http.get(ApiPath + '/founders.json').then(function (response) {
+                var person;
+                console.log('yes');
+                person = response.data.find(record => record.id === id);
+                console.log(person);
+                return person;
+            });
+        };
+
+
 
     }
 
